@@ -1,0 +1,6 @@
+print out the message
+use getline() to get the tokens from the user
+use strtok
+	while strtok != NULL:
+		print out each token by print out the characters started with the pointer strtok() returned
+	
