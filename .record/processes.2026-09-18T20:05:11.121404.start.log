@@ -1,0 +1,21 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+cmpt201        1  0.0  0.1  19040  9180 pts/0    Ss+  Sep17   0:14 zsh --login
+cmpt201      373  0.0  0.0  17648  7588 pts/1    Ss+  Sep17   0:01 zsh --login
+cmpt201    12758  0.0  0.0  14176  6504 pts/2    Ss+  03:28   0:00 zsh --login
+cmpt201    14557  0.0  0.0  14164  6456 pts/3    Ss   03:42   0:00 zsh --login
+cmpt201    14644  0.1  0.0  86772  6108 pts/3    Sl+  03:42   1:24 btop
+cmpt201    32734  0.0  0.0  14264  6588 pts/4    Ss+  19:20   0:00 zsh --login
+cmpt201    34254  0.0  0.0  14048  6320 pts/5    Ss+  19:30   0:00 zsh --login
+cmpt201    34336  0.0  0.0  17592  7392 pts/6    Ss   19:31   0:00 zsh --login
+cmpt201    34772  0.0  0.0   8012  1692 pts/0    S+   19:35   0:00 cat
+cmpt201    34773  0.1  0.1  18360  8588 pts/7    Ss   19:41   0:02 zsh --login
+cmpt201    36171  0.0  0.0   2800  1824 pts/7    S+   19:50   0:00 /home/cmpt201/.local/bin/record
+cmpt201    36172  0.0  0.2 108992 22612 pts/7    Sl+  19:50   0:00 /home/cmpt201/.local/bin/record
+cmpt201    36177  0.0  0.2 108240 22140 pts/7    Sl+  19:50   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.7.2026-09-18T19:50:02.130623
+cmpt201    36179  0.0  0.1  34416 16116 pts/7    S+   19:50   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.7.2026-09-18T19:50:02.130623
+cmpt201    36180  0.0  0.2  34560 16792 pts/7    S+   19:50   0:00 /usr/bin/python3 /usr/bin/asciinema rec --idle-time-limit=60 --stdin --quiet /tmp/.record/input.7.2026-09-18T19:50:02.130623
+cmpt201    36181  0.0  0.0   2392  1584 pts/8    Ss   19:50   0:00 sh -c /usr/bin/zsh
+cmpt201    36182  0.0  0.0  14268  6596 pts/8    S+   19:50   0:00 /usr/bin/zsh
+cmpt201    39098 63.6  0.0   2800  1824 pts/6    S+   20:05   0:00 /home/cmpt201/.local/bin/record
+cmpt201    39099 66.6  0.2 108976 22208 pts/6    S+   20:05   0:00 /home/cmpt201/.local/bin/record
+cmpt201    39102  0.0  0.0  13232  4144 pts/6    R+   20:05   0:00 ps aux
