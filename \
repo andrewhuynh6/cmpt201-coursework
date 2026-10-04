@@ -1,0 +1,33 @@
+#define _POSIX_C_SOURCE 200809L
+#include <stdio.h>
+#include <stdlib.h>
+
+void storeInput(char *input, int counter, char **input_array) { input_array[counter % 5] = &input; }
+
+int main() {
+  // while loop to get user input
+  char *input_history[5] = {};
+  size_t counter = 0;
+
+  while (1) {
+    // get input with buffer and getline
+    size_t size = 0;
+    char *buffer = NULL;
+    size_t num_char = getline(&buffer, &size, stdin);
+
+    if (num_char == -1) {
+      perror("getline failed");
+      exit(EXIT_FAILURE);
+    }
+    input_history = storeInput(&buffer, counter, input_history);
+    // store input
+    //
+    if buffer
+      a = print {}
+    // if user input == print
+    // fork() to continue after this if statement
+    // print last 5 line and waitpid
+
+    // else continue
+  }
+}
