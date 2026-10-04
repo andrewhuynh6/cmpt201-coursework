@@ -40,10 +40,9 @@ int main() {
     // store input
     storeInput(buffer, counter, input_history);
     counter++;
+
     if (strcmp(buffer, "print") == 0) {
       print_history(input_history, counter);
-    } // if user input == print
-
-    // else continue
+    }
   }
 }
